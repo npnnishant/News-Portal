@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables & forms</title>
+</head>
+<body>
+	<h1>Forms</h1>
+	<!-- <table style="width: 100%" cellpadding="10" border="border">
+		<caption>This is example 1</caption>
+		<tr>
+			<th>Company</th><th>Contact</th><th>Country</th>
+		</tr>
+		<tr>
+			<td>XYZ</td><td>12345</td><td>Nepal</td>
+		</tr>
+		<tr>
+			<td>abc</td><td>958845</td><td>India</td>
+		</tr>
+
+	</table>
+
+	<br><br><br><br>
+
+	<table style="width: 100%" border="border">
+		<tr>
+			<th>Name</th>
+			<th colspan="2">Phone Number</th>
+
+		</tr>
+		<tr>
+			<td>abc</td>
+			<td>98766</td>
+			<td>123445</td>
+		</tr>
+
+	</table>
+
+<br><br><br><br>
+
+<table style="width: 100%" border="border">
+		<tr>
+			<th>Name</th>
+			<td>XYZ</td>
+
+		</tr>
+		<tr>
+			<th rowspan="2">Telephone</th>
+			<td>98766</td>
+		</tr>
+		<tr>
+			<td>98766</td>
+		</tr>
+		
+
+	</table> -->
+<br><br><br>
+
+<form>
+	First name:
+	<input type="text" name="firstname" required>
+	<br>
+	Last name:
+	<input type="text" name="lastname">
+	<br>
+	Password: <br>
+	<input type="Password" name="psw"><br>
+	Gender:<br>
+	<input type="radio" name="gender" value="Male" checked>Male<br>
+	<input type="radio" name="gender" value="female">female<br>
+	<input type="radio" name="gender" value="others">Others<br>
+	<br>
+	<fieldset><legend>This is selection</legend>
+	Choose your fav. food:<br>
+	<input type="checkbox" name="food" value="Rice">Rice<br>
+	<input type="checkbox" name="food" value="Momo">Momo<br>
+	<input type="checkbox" name="food" value="Pizza">Pizza<br>
+	<br>
+	Select your fav color:<br>
+	<input type="color" name="favcolor"><br><br>
+	Enter your dob(after 1980-01-01):
+	<input type="date" name="bday" min="1979-12-31"><br><br>
+	</fieldset>
+
+	Quantity(between 1 & 5):<br>
+	<input type="number" name="quantity" min="1" max="5"><br><br>
+
+	Time:<br>
+	<input type="time" name="user_time"><br><br>
+	Message us: <br>
+	<textarea name="message" rows="10" cols="50"></textarea><br><br>
+
+
+	<input type="button" onclick="alert('hello')" value="Click Me!">
+	<input type="submit" value="submit">
+	<input type="reset">
+</form>
+
+</body>
+</html>
